@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>FSPowerPack.Community</id>
-    <version>2.1.0.0</version>
+    <version>2.1.0.1</version>
     <authors>Daniel Mohl (author of this NuGet package) refer to http://fsharppowerpack.codeplex.com/ for the library authors</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>The F# PowerPack is a collection of libraries and tools for use with the F# programming languages provided by the F# team at Microsoft.</description>
