@@ -20,6 +20,8 @@
 	  <file src="Lib\Net40\*.*" target="Lib\Net40" />
 	  <file src="Lib\sl3\*.*" target="Lib\sl3" />
 	  <file src="Lib\sl4\*.*" target="Lib\sl4" />
+	  <file src="Lib\sl3\*.*" target="Lib\sl3-wp" />
+	  <file src="Lib\sl4\*.*" target="Lib\sl4-windowsphone71" />
 	  <file src="Tools\*.*" target="Tools" />
   </files>
 </package>
