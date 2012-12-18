@@ -2,9 +2,9 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>FSPowerPack.Community.Sample</id>
-    <version>2.1.1.2</version>
+    <version>3.0.0.0</version>
     <dependencies>
-      <dependency id="FSPowerPack.Community" version="1.9.9.9" />
+      <dependency id="FSPowerPack.Community" />
     </dependencies>
     <authors>Daniel Mohl (author of this NuGet package) refer to http://fsharppowerpack.codeplex.com/ for the library authors</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

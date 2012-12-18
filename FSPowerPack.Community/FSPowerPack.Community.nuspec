@@ -2,7 +2,12 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>FSPowerPack.Community</id>
-    <version>2.1.2.2</version>
+    <version>3.0.0.0</version>
+    <dependencies>
+	  <dependency id="FSPowerPack.Linq.Community" />
+	  <dependency id="FSPowerPack.Metadata.Community" />	  
+	  <dependency id="FSPowerPack.Parallel.Seq.Community" />
+    </dependencies>    	
     <authors>Daniel Mohl (author of this NuGet package) refer to http://fsharppowerpack.codeplex.com/ for the library authors</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>The F# PowerPack is a collection of libraries and tools for use with the F# programming languages provided by the F# team at Microsoft.</description>
@@ -15,13 +20,7 @@
 	<tags>F# fsharp PowerPack</tags>
   </metadata>
   <files>
-	  <file src="Lib\*.*" target="Lib" />
-	  <file src="Lib\Net20\*.*" target="Lib\Net20" />
-	  <file src="Lib\Net40\*.*" target="Lib\Net40" />
-	  <file src="Lib\sl3\*.*" target="Lib\sl3" />
-	  <file src="Lib\sl4\*.*" target="Lib\sl4" />
-	  <file src="Lib\sl3\*.*" target="Lib\sl3-wp" />
-	  <file src="Lib\sl4\*.*" target="Lib\sl4-windowsphone71" />
+      <file src="Content\*.*" target="Content" />
 	  <file src="Tools\*.*" target="Tools" />
   </files>
 </package>
